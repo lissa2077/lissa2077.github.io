@@ -1,1 +1,15 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      var filename = "page1";
+		$("#content").load("page1.html");
+    });
+  </script>
+</head>
+<body>
+  <div id="content"></div>
+</body>
+</html>
